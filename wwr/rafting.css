@@ -1,0 +1,31 @@
+/* rafting.css */
+
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+:root {
+    --heading-color: #333;       /* Example heading color */
+    --paragraph-color: #666;     /* Example paragraph color */
+    --link-color: #007bff;       /* Example link color */
+  }
+  h1,h2 {
+    color: var(--heading-color);
+    font-family: 'Montserrat', sans-serif; /* Example font-family */
+    /* Additional styling for headings */
+  }
+  
+  p {
+    color: var(--paragraph-color);
+    /* Additional styling for paragraphs */
+  }
+  body {
+    font-family: 'Roboto', sans-serif; /* Example body font-family */
+    color: #555; /* Example default text color */
+  }
+  .social-link {
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1200px; /* Example maximum width */
+    margin: 0 auto; /* Center align content */
+    padding: 0 20px; /* Add padding for content */
+  }
+  
