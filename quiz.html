@@ -9,21 +9,22 @@
 <body>
     <h1>Quiz:</h1>
     <form id="quiz-form">
-        <label for="q1">1: Fill in the blank</label>
+        <label for="q1">1: What is fullname of HTML ?</label>
         <input type="text" id="q1" name="q1" placeholder="Your answer...">
         
-        <label for="q2">2: Short answer</label>
+        <label for="q2">2: What makes coding language makes the page beautiful ?</label>
         <textarea id="q2" name="q2" rows="4" placeholder="Your answer..."></textarea>
         
-        <label for="q3">3: Select an option</label>
+        <label for="q3">3: Why does the text inside the <div id="special">Special Text</div> element have its specific styling according to the CSS rules provided?</label>
         <select id="q3" name="q3">
             <option value="" selected disabled>Choose One...</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="option1">Because of the .container class</option>
+            <option value="option2">Due to the div selector</option>
+            <option value="option3">The #special ID selector takes precedence</option>
+            <option value="option4"> All div elements within .container have the same style</option>
         </select>
         
-        <label for="q4">Question 4: Integer answer</label>
+        <label for="q4">What is the most common padding size used in css ?</label>
         <input type="number" id="q4" name="q4" placeholder="Enter a number...">
         
         <button type="submit">Submit Quiz</button>
