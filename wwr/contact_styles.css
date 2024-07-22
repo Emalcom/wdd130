@@ -304,3 +304,17 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #45a049;
 }
+.employee {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.employee p {
+    font-size: 14px;
+    color: #666;
