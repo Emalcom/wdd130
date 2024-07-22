@@ -261,8 +261,8 @@ footer img {
     cursor: pointer;
 }
 
-.info-content .contact-us:hover {
-    background-color: #026f70;
+.company-info:hover {
+    background-color: #022570;
 }
 
 
@@ -318,3 +318,7 @@ button[type="submit"]:hover {
 .employee p {
     font-size: 14px;
     color: #666;
+}
+.contact-form{
+    background-color: #026f70;
+}
