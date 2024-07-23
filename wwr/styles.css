@@ -323,7 +323,7 @@ footer img {
 
 .hero-text {
     display:flex ;
-    flex-direction: center;
+    flex-direction: left;
     /*position: relative;*/
     left: 50px;
     right: 50px;
