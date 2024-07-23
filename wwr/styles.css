@@ -321,11 +321,16 @@ footer img {
     height: auto;
 }
 .hero-text {
-    position: relative;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%
+   /* position: relative;*
     left: 500px;
     right: 500px;
     transform: translate(-50%, -50%);
-   text-align: center;
+   text-align: center;*/
  }
 
 .hero-text h1 {
