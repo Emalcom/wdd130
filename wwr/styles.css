@@ -321,7 +321,7 @@ footer img {
     height: auto;
 }
 
-.hero-text {
+.hero-text, h1, p {
     position: relative;
     left: 500px;
     right: 500px;
