@@ -325,8 +325,8 @@ footer img {
     display:flex ;
     flex-direction: left;
     /*position: relative;*/
-    left: 50px;
-    right: 50px;
+    left: 150px;
+    right: 150px;
     /*transform: translate(-50%, -50%);*/
 }
 /*.hero-text h1{
