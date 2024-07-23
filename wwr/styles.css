@@ -326,18 +326,7 @@ footer img {
     position: absolute;
     top: 100%;
     left: 100%*/
-
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    width: 50%;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     left: 500px;
     right: 500px;
     transform: translate(-50%, -50%);
