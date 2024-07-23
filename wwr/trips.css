@@ -1,0 +1,269 @@
+body {
+    font-family: cursive;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    background-color: #0CF2F2; /* Sea Blue */
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #028090;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #341C1C;
+    color: #4B644A;
+}
+
+/* General Section Styling */
+section {
+    margin: 20px 0;
+}
+
+.white-water-rafting,
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* White Water Rafting Section */
+.white-water-rafting {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the section */
+}
+
+.white-water-rafting h2 {
+    margin: 0 0 20px 0; /* Space below the heading */
+}
+
+.white-water-rafting .rafting-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between text and image */
+    gap: 20px;
+    max-width: 100%; /* Ensure container doesn't overflow */
+    margin: 0 auto; /* Center the container */
+}
+
+.white-water-rafting .text-content {
+    text-align: left; /* Align text to the left */
+    flex: 1; /* Allow the text to take available space */
+}
+
+.white-water-rafting img {
+    width: 40%; /* Adjust as needed */
+    height: auto;
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+/* History Section */
+.history .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.history img {
+    width: 40%;
+    height: auto;
+    max-width: 250px;
+    margin: 0 20px;
+}
+
+/* Adventure Awaits You Section */
+.adventure-awaits-you {
+    margin: 20px 0;
+}
+
+.adventure-awaits-you h2 {
+    text-align: center; /* Center the heading */
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.adventures figure {
+    flex: 1 1 calc(10% - 20px); /* Adjusts the size and space of each figure */
+    text-align: center;
+    margin: 0; /* Remove any margin around figures */
+    padding: 0; /* Remove any padding around figures */
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+}
+
+.adventures figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0CF2F2;
+}
+
+footer p {
+    font-size: 0.875rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer img {
+    width: 24px;
+    height: auto;
+    margin-left: 10px;
+}
+/* HOMEPAGE */
+
+/* Existing styles from main.css */
+
+/* Hero Section */
+.hero {
+    position: relative;
+    margin-top: -20px; /* Move closer to navbar */
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.hero .call-to-action {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #028090;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .call-to-action:hover {
+    background-color: #026f70;
+}
+
+/* Highlights Section */
+.highlights {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.highlight {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.highlight img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.highlight p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Info Box Section */
+.info-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.image-container {
+    flex: 2;
+    border: 1px solid #ddd; /* Border to simulate the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.info-content {
+    flex: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-left: -20px; /* Negative margin to overlap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-content h2 {
+    margin-bottom: 10px;
+}
+
+.info-content p {
+    margin-bottom: 20px;
+}
+
+.info-content .contact-us {
+    padding: 10px 20px;
+    background-color: #028090;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.info-content .contact-us:hover {
+    background-color: #026f70;
+}
+
+
+/* Footer styles remain the same */
