@@ -321,17 +321,25 @@ footer img {
     height: auto;
 }
 .hero-text {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*
+.hero-text {
    /* display: grid;
     place-items: center;
     position: absolute;
     top: 100%;
-    left: 100%*/
+    left: 100%
     position: relative;
     left: 500px;
     right: 500px;
     transform: translate(-50%, -50%);
    text-align: center;
- }
+ }*/
 .hero-text h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
