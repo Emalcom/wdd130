@@ -267,3 +267,41 @@ footer img {
 
 
 /* Footer styles remain the same */
+#contact-action {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#trips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trip {
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+}
+
+#trip-table {
+    margin: 20px 0;
+}
+
+#trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#trip-table th, #trip-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#trip-table th {
+    background-color: #f2f2f2;
+}
