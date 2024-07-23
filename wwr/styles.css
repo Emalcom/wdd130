@@ -322,14 +322,15 @@ footer img {
 }
 
 .hero-text {
+    text-align: center;
   position: relative;
     left: 200px;
     right: 200px;
     transform: translate(-50%, -50%);
 }
-.hero-text h1{
+/*.hero-text h1{
     text-align: center;
-}
+}*
 
 #newsletter, #cta, #about {
     text-align: center;
