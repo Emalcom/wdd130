@@ -321,13 +321,13 @@ footer img {
     height: auto;
 }
 .hero-text {
-    display: grid;
+   /* display: grid;
     place-items: center;
     position: absolute;
     top: 100%;
-    left: 100%
-}
-   /* position: relative;*
+    left: 100%*/
+
+    position: relative;*
     left: 500px;
     right: 500px;
     transform: translate(-50%, -50%);
