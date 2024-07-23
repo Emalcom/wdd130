@@ -321,11 +321,13 @@ footer img {
     height: auto;
 }
 
-.hero-text, h1, p {
-    position: relative;
+.hero-text {
+    display:flex ;
+    flex-direction: center;
+    /*position: relative;*/
     left: 500px;
     right: 500px;
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);*/
 }
 /*.hero-text h1{
     text-align: center;
