@@ -320,7 +320,7 @@ footer img {
     width: 100%;
     height: auto;
 }
-.hero-text {
+/*.hero-text {
     display: grid;
     place-items: center;
     position: absolute;
@@ -330,13 +330,13 @@ footer img {
     left: 500px;
     right: 500px;
     transform: translate(-50%, -50%);
-   text-align: center;*/
+   text-align: center;
  }
-
+*/
 .hero-text h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
-    text-align: center;
+    
 }
 /*.hero-text h1{
     text-align: center;
