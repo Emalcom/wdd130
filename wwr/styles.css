@@ -321,12 +321,12 @@ footer img {
     height: auto;
 }
 
-/*.hero-text {
+.hero-text {
   position: relative;
-    left: 100%;
-    right: 100%;
+    left: 200px;
+    right: 200px;
     transform: translate(-50%, -50%);
-}*/
+}
 
 #newsletter, #cta, #about {
     text-align: center;
