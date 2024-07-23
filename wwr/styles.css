@@ -322,10 +322,9 @@ footer img {
 }
 
 .hero-text {
-    text-align: center;
-  position: relative;
-    left: 200px;
-    right: 200px;
+    position: relative;
+    left: 500px;
+    right: 500px;
     transform: translate(-50%, -50%);
 }
 /*.hero-text h1{
