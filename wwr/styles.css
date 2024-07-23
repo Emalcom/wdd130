@@ -324,8 +324,8 @@ footer img {
     display: grid;
     place-items: center;
     position: absolute;
-    top: 50%;
-    left: 50%
+    top: 100%;
+    left: 100%
 }
    /* position: relative;*
     left: 500px;
