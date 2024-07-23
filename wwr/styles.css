@@ -320,18 +320,22 @@ footer img {
     width: 100%;
     height: auto;
 }
-
 .hero-text {
-    display:flex ;
-    flex-direction: column;
-    /*position: relative;*/
+    position: relative;
     left: 500px;
     right: 500px;
     transform: translate(-50%, -50%);
+   text-align: center;
+ }
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
 }
 /*.hero-text h1{
     text-align: center;
 }*/
+
 
 #newsletter, #cta, #about {
     text-align: center;
