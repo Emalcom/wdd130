@@ -370,3 +370,12 @@ footer img {
 .grid-item p {
     margin: 10px 0;
 }
+.employee img {
+  
+  width: 200px;
+}
+.employee-profiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Auto adjust columns */
+    gap: 10px; /* Space between images*/
+}
